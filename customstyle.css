@@ -1,0 +1,45 @@
+body {  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #FFB5C0, #FFD5E0);
+}
+
+div {     
+    text-align: center;     
+    background-color: rgb(233, 86, 233); 
+    color: whitesmoke;
+}
+
+/* Hover effect for div */
+div:hover {
+    background-color: rgb(206, 56, 206);
+    color: #fff;
+}
+
+button {
+    background-color: #c34468;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #a8324c;
+}
+
+.second {
+    background-color: aqua;
+    color: white;
+}
+
+/* Hover effect for button with class 'second' */
+.second:hover {
+    background-color: #00cccc;
+}
